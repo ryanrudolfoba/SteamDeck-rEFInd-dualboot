@@ -51,7 +51,7 @@ This is a complete rewrite and it doesn't rely on systemd services /  3rd party 
     * Expand "Device Lockdown", and then put a check mark on "Unbranded Boot"
     * Open command prompt with admin privileges and enter the commands to disable the boot graphics animation-\
         bcdedit.exe -set {globalsettings} bootuxdisabled on\
-        bcdedit.exe -set {bootmgr} noerrordisplay on\
+        bcdedit.exe -set {bootmgr} noerrordisplay on
 
 ## Using the Script
 > **NOTE - please read carefully below**
@@ -78,7 +78,7 @@ Using the script is fairly easy -
 4. Wait for script to finish the install.
    ![image](https://user-images.githubusercontent.com/98122529/211203142-3887be83-e8c9-41b9-b7ab-25d393bfe954.png)
 
-5. Reboot the Steam Deck. rEFInd is installed and you should see a GUI to select which OS to boot from!. Use the DPAD / trackpad and press A to confirm your choice.
+5. Reboot the Steam Deck. rEFInd is installed and you should see a GUI to select which OS to boot from! Use the DPAD / trackpad and press A to confirm your choice.
 
 
 ## Screenshots
@@ -114,7 +114,7 @@ SHA384 - a9ecd691474cfe5132b60022d002d1ed62a592b76aab9f31ad7ce8eec8d38bdfbe83562
 ![image](https://user-images.githubusercontent.com/98122529/211198710-68105c60-3710-4e9d-bf44-11ab7bc1e67e.png)
 4. Open command prompt with admin privileges and enter the commands to disable the boot graphics animation -\
    bcdedit.exe -set {globalsettings} bootuxdisabled on\
-   bcdedit.exe -set {bootmgr} noerrordisplay on\
+   bcdedit.exe -set {bootmgr} noerrordisplay on
 
 ### Q2. Windows boots up in garbled graphics!
 ![image](https://user-images.githubusercontent.com/98122529/211198222-5cce38ff-3f20-4386-8715-c408fea6a4b0.png)
