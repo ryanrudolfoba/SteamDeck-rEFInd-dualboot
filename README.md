@@ -162,7 +162,7 @@ SHA384 - a9ecd691474cfe5132b60022d002d1ed62a592b76aab9f31ad7ce8eec8d38bdfbe83562
 
 1. Power off the Steam Deck. 
 2. While powered off press VOLDOWN + Power and manually boot into SteamOS / rEFInd.
-3. Open a konsole terminal and re-enable the Windows EFI - \
+3. Open a konsole terminal and disable the Windows EFI - \
    cd ~/1rEFInd-tools \
    ./disable-windows-efi.sh\
    ![image](https://user-images.githubusercontent.com/98122529/211203335-fa6133cd-46e8-4423-9918-84bf78bd136c.png)
