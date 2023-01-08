@@ -120,7 +120,7 @@ SHA384 - a9ecd691474cfe5132b60022d002d1ed62a592b76aab9f31ad7ce8eec8d38bdfbe83562
 ![image](https://user-images.githubusercontent.com/98122529/211198222-5cce38ff-3f20-4386-8715-c408fea6a4b0.png)
 
 1. Boot into SteamOS.
-8. Open a konsole terminal and re-enable the Windows EFI - \  
+8. Open a konsole terminal and re-enable the Windows EFI - \
    cd ~/1rEFInd-tools \
    ./enable-windows-efi.sh\
    ![image](https://user-images.githubusercontent.com/98122529/211203305-b112fe52-874d-43db-b4f2-def24b254bd3.png)
@@ -130,7 +130,7 @@ SHA384 - a9ecd691474cfe5132b60022d002d1ed62a592b76aab9f31ad7ce8eec8d38bdfbe83562
 5. Make sure Unbranded Boot is configured and enabled.
 6. Power off the Steam Deck. 
 7. While powered off press VOLDOWN + Power and manually boot into SteamOS / rEFInd.
-8. Open a konsole terminal and disable the Windows EFI - \  
+8. Open a konsole terminal and disable the Windows EFI - \
    cd ~/1rEFInd-tools \
    ./disable-windows-efi.sh\
    ![image](https://user-images.githubusercontent.com/98122529/211203335-fa6133cd-46e8-4423-9918-84bf78bd136c.png)
