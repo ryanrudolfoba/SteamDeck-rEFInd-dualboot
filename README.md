@@ -49,9 +49,9 @@ This is a complete rewrite and it doesn't rely on systemd services /  3rd party 
 3. Configure Unbranded Boot. This is to minimize the graphical glitches when booting Windows.
     * Go to Control Panel > Programs and Features > Turn Windows Features On or Off.
     * Expand "Device Lockdown", and then put a check mark on "Unbranded Boot"
-    * Open command prompt with admin privileges and enter the commands to disable the boot graphics animation-
-        bcdedit.exe -set {globalsettings} bootuxdisabled on
-        bcdedit.exe -set {bootmgr} noerrordisplay on
+    * Open command prompt with admin privileges and enter the commands to disable the boot graphics animation-\
+        bcdedit.exe -set {globalsettings} bootuxdisabled on\
+        bcdedit.exe -set {bootmgr} noerrordisplay on\
 
 ## Using the Script
 > **NOTE - please read carefully below**
