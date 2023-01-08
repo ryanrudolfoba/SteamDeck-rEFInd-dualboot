@@ -20,7 +20,7 @@ This will mostly benefit Steam Deck users who have setup a dual boot and wants t
 > **NOTE**\
 > This was inspired from the rEFInd script available [here.](https://github.com/jlobue10/SteamDeck_rEFInd)
 
-1. Re-wrote the script and removed unneeded components.
+1. Re-wrote the script and removed unneeded components (3rd party systemd scripts / powershell scripts / EasyUEFI).
 2. All-in-One script - install, disable / re-enable, uninstall!
 3. Simplified config file so it is easy to read, understand and modify.
 4. Doesn't rely on pacman repositories - uses the [official rEFInd ISO](http://sourceforge.net/projects/refind/files/0.13.3.1/refind-cd-0.13.3.1.zip/download) image.
@@ -96,6 +96,9 @@ Using the script is fairly easy -
 
 ## FAQ / Troubleshooting
 Read this for your Common Questions and Answers!
+
+### Q0. Why did you rename / move the Windows EFI file?
+EFI/Microsoft/Boot/bootmgfw.efi — Many EFI implementations use it as a fallback boot loader in addition to or instead of EFI/BOOT/bootarch.efi. In fact, some give it such a high precedence that you can't boot anything that's not given this name! [Taken from the official rEFInd documentation.](https://www.rodsbooks.com/refind/installing.html#naming)
 
 ### Q0. How do I check that the ISO is not tampered?
 
