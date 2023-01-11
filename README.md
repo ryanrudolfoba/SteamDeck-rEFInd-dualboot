@@ -1,5 +1,6 @@
 # Steam Deck - Installing rEFInd for Dual Boot Between SteamOS and Windows
 
+## PLEASE DONT USE THIS! I NEED TO RE-WRITE THE SCRIPT SO IT CONTAINS THE SAME TECHNIQUE I USED WITH CLOVER
 
 ## About
 
