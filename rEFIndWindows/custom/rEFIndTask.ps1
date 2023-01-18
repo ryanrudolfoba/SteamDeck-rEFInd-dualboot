@@ -8,9 +8,9 @@ $rEFIndstatus="C:\1rEFInd-tools\status.txt"
 $rEFIndtmp="C:\1rEFInd-tools\rEFIndtmp.txt"
 $queryrEFInd = bcdedit.exe /enum firmware | Select-String -pattern refind_x64.efi -Context 2 | out-file $rEFIndtmp
 $rEFInd = get-content $rEFIndtmp | select-string -pattern Volume -context 2 | findstr "{" ; `
-$rEFInd = $rEFInd -replace 'identifier' ; $rEFInd = $rEFInd -replace ' '
+$rEFInd = $rEFInd -replace '.*\{' -replace '\}.*'
 rm $rEFIndtmp
-bcdedit /set "{fwbootmgr}" bootsequence "$rEFInd" /addfirst
+bcdedit /set "{fwbootmgr}" bootsequence "{$rEFInd}" /addfirst
 #
 # create log file for troubleshooting
 "*** rEFInd log file for troubleshooting ***" | out-file $rEFIndstatus
