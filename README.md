@@ -72,7 +72,7 @@ This is a complete rewrite and it doesn't rely on systemd services /  3rd party 
 
 
 > **For the SteamOS side**\
-> The script copies files to the /esp/efi/clover location and manipulates the EFI boot orders. No files are renamed / moved.\
+> The script copies files to the /esp/efi/rEFInd location and manipulates the EFI boot orders. No files are renamed / moved.\
 > Extra scripts are saved in ~/1rEFInd-tools which manipulates the EFI boot orders, and an uninstall to reverse any changes made.\
 > There are no extra systemd scripts created, ~~no extra power shell scripts needed~~ and no need for EasyUEFI.
 
