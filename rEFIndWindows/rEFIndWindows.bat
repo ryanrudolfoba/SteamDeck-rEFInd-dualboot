@@ -1,7 +1,7 @@
 @echo off
 rem - create 1rEFInd-tools folder and copy the powershell script
 mkdir C:\1rEFInd-tools
-copy "%~dp0custom\rEFIndTask.ps1 c:\1rEFInd-tools"
+copy "%~dp0custom\rEFIndTask.ps1" c:\1rEFInd-tools
 cls
 echo rEFInd Windows Install Script by ryanrudolf
 echo https://github.com/ryanrudolfoba/SteamDeck-rEFInd-dualboot
