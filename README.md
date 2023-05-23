@@ -3,6 +3,8 @@
 
 ## About
 
+Please don't use this script as it has not been updated for ages.... Please use the Clover script instead - https://github.com/ryanrudolfoba/SteamDeck-Clover-dualboot
+
 This repository contains the instructions and scripts on how to install [rEFInd - a graphical boot manager.](https://www.rodsbooks.com/refind/)
 
 This will mostly benefit Steam Deck users who have setup a dual boot and wants to have a graphical way to select which OS to boot from.
